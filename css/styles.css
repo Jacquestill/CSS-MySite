@@ -1,38 +1,51 @@
 /* ----------------- Tag Selectors ----------------- */
 body {
   margin: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
   margin-top: 0;
+  font-family: 'Sacramento', cursive;
 }
+
+h2 {}
+
+h3 {}
 
 /* ----------------- Class Selectors ----------------- */
 .top-container {
-  background-color: #62959C;
+  background-color: #F7ECDE;
+  position: relative;
+  padding-top: 100px;
 }
 
-.middle-container {
-  background-color: red;
-  height: 200px;
-  width: 200px;
-  position: relative;
-  left: 400px;
+.cloud-top {
+  position: absolute;
+  top: 50px;
+  right: 350px;
 }
 
-.bottom-container {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
-  position: relative;
-  bottom: 200px;
+.cloud-bottom {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
 
-.last-container {
-  background-color: yellow;
-  height: 200px;
-  width: 200px;
-  position: relative;
-  left: 200px;
-  bottom: 400px;
+.middle-container {}
+
+.headshot-img {
+  width: 250px;
+  border-radius: 100px;
 }
+
+.skills-img {
+  width: 300px;
+}
+
+.js-img {
+  width: 300px;
+}
+
+.bottom-container {}
