@@ -4,33 +4,33 @@ body {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  font-size: 200%;
+  font-size: 175%;
 }
 
 h1 {
-  margin: 50px auto 0px auto;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
-  color: #54BAB9
+  color: #362706;
 }
 
 h2 {
   font-size: 2.5rem;
-  font-weight: 400;
-  color: #54BAB9
+  font-weight: normal;
+  color: #362706;
 }
 
 h3 {
-  color: #E9DAC1;
+  color: #464E2E;
 }
 
 a {
-  color: #E9DAC1;
+  color: #464E2E;
 }
 
 /* ----------------- Class Selectors ----------------- */
 .top-container {
-  background-color: #F7ECDE;
+  background-color: #ACB992;
   position: relative;
   padding-top: 100px;
 }
@@ -48,22 +48,34 @@ a {
 }
 
 .middle-container {
-  background-color: #FBF8F1;
+  background-color: #E9E5D6;
 }
 
 .headshot-img {
   width: 250px;
   border-radius: 100px;
+  margin-top: 30px;
+}
+
+.skill-row {
+  width: 75%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
 }
 
 .skills-img {
   width: 300px;
+  float: left;
+  margin-right: 100px;
 }
 
 .js-img {
   width: 300px;
+  float: right;
+  margin-left: 100px;
 }
 
 .bottom-container {
-  background-color: #F7ECDE;
+  background-color: #ACB992;
 }
