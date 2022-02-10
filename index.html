@@ -13,11 +13,52 @@
 
 <body>
   <div class="top-container">
-    <img class="cloud-top" src="img/cloud.png" alt="cloud-img">
-    <h1>I'm Jacques</h1>
+    <nav class="nav">
+      <img class="avatar" src="img/avatar.png" alt="Jacques Till's Avatar" />
+      <ul class="nav-links">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-me">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+    <h1>Jacques Till</h1>
     <h2>Web Developer</h2>
-    <img class="cloud-bottom" src="img/cloud.png" alt="cloud-img">
-    <img class="mountain" src="img/mountain.png" alt="mountain-img">
+    <div class="socials">
+      <div>
+        <a href="https://www.linkedin.com/in/jacques-till-44713013b" class="social">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="#362706">
+            <path
+              d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+          </svg>
+        </a>
+      </div>
+      <div>
+        <a href="https:/www.github.com/Jacquestill" class="social">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="#362706">
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+          </svg>
+        </a>
+      </div>
+      <div>
+        <a href="https://twitter.com/JacquesTill9" class="social">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="#362706">
+            <path
+              d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  <img class="standing" src="img/standing.png" alt="standing-img">
   </div>
   <div class="middle-container">
     <div class="profile">
@@ -32,7 +73,7 @@
       <div class="skill-row">
         <img class="skills-img" src="img/data-science.png" alt="skills image">
         <h3>Design & Development</h3>
-        <p>I'm a self taught web developer. I started my coding journey in 2022 and fell immediately inlove with coding. I have gained a lot of knowledge about HTML, CSS and JavaScript.</p>
+        <p class="about-me">I'm a self taught web developer. I started my coding journey in 2022 and fell immediately inlove with coding. I have gained a lot of knowledge about HTML, CSS and JavaScript.</p>
       </div>
       <div class="skill-row">
         <img class="js-img" src="img/javascript.png" alt="javascript image">
@@ -43,18 +84,18 @@
     <hr>
     <div class="contact-me">
       <h2>Get In Touch</h2>
-      <h3>Please feel free to send me an email.</h3>
-      <p>Or vitis my LinkedIn, GitHub or Twitter profiles.</p>
-      <a class="btn" href="mailto:jacquestill9@icloud.com">CONTACT ME</a>
+      <h3 class="contact-text">Please feel free to send me an email.</h3>
+      <p class="contact-text-link">Or vitis my LinkedIn, GitHub or Twitter profiles.</p>
+      <div class="btn-container">
+        <a class="btn" href="mailto:jacquestill9@icloud.com">CONTACT ME</a>
+      </div>
     </div>
   </div>
-
-
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/jacques-till-44713013b/">LinkedIn</a>
     <a class="footer-link" href="https://github.com/Jacquestill">GitHub</a>
     <a class="footer-link" href="https://twitter.com/JacquesTill9">Twitter</a>
-    <p>© Jacques Till.</p>
+    <p class="copyright">© Jacques Till - Web Developer.</p>
   </div>
 </body>
 
