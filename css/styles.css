@@ -3,16 +3,30 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 200%;
 }
 
 h1 {
-  margin-top: 0;
+  margin: 50px auto 0px auto;
   font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #54BAB9
 }
 
-h2 {}
+h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #54BAB9
+}
 
-h3 {}
+h3 {
+  color: #E9DAC1;
+}
+
+a {
+  color: #E9DAC1;
+}
 
 /* ----------------- Class Selectors ----------------- */
 .top-container {
@@ -33,7 +47,9 @@ h3 {}
   bottom: 300px;
 }
 
-.middle-container {}
+.middle-container {
+  background-color: #FBF8F1;
+}
 
 .headshot-img {
   width: 250px;
@@ -48,4 +64,6 @@ h3 {}
   width: 300px;
 }
 
-.bottom-container {}
+.bottom-container {
+  background-color: #F7ECDE;
+}
