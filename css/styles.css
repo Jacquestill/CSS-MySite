@@ -66,6 +66,15 @@ ul {
   justify-content: space-between;
 }
 
+.nav.sticky {
+  position: fixed;
+  top: 0;
+  background-color: #ACB992;
+  opacity: 0.9;
+  width: 100vw;
+  height: 100px;
+}
+
 .nav-links {
   width: max-content;
 }
