@@ -55,7 +55,6 @@ ul {
 }
 
 /* ----------------- Class Selectors ----------------- */
-
 .avatar {
   width: 100px;
   height: 100px;
@@ -129,6 +128,40 @@ ul {
   width: 300px;
   float: right;
   margin-left: 50px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  /* background-color: #ACB992; */
+  height: 800px;
+  width: 45%;
+  border-radius: 50px;
+  /* box-shadow: 3px 3px 30px; */
+  margin: 25px auto;
+}
+
+.project-img {
+  margin-top: 25px;
+  width: 300px;
+  border-radius: 200px;
+}
+
+.project-line {
+  margin: 20px auto;
+}
+
+.project-link:hover {
+  color: #362706;
+  font-size: 1.8rem;
+}
+
+.subtext {
+  margin: auto 20px;
 }
 
 .bottom-container {
