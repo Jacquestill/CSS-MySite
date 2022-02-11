@@ -64,9 +64,6 @@ ul {
 .nav {
   display: flex;
   justify-content: space-between;
-}
-
-.nav.sticky {
   position: fixed;
   top: 0;
   background-color: #ACB992;
@@ -74,6 +71,15 @@ ul {
   width: 100vw;
   height: 100px;
 }
+
+/* .nav.sticky {
+  position: fixed;
+  top: 0;
+  background-color: #ACB992;
+  opacity: 0.9;
+  width: 100vw;
+  height: 100px;
+} */
 
 .nav-links {
   width: max-content;
@@ -87,6 +93,7 @@ ul {
   background-color: #ACB992;
   position: relative;
   height: 100vh;
+  padding-top: 100px;
   /* padding-top: 100px; */
 }
 
@@ -113,7 +120,7 @@ ul {
 .headshot-img {
   width: 250px;
   border-radius: 100px;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .profile {
